@@ -1,0 +1,22 @@
+@import "./base/base";
+
+.body{
+    padding: 0;
+    .body-container{
+        padding: 0;
+        .body-left-grid{
+            height: calc(100vh - 64px);
+            background-color:beige;
+            padding: 10px 4px 10px 4px;
+            .left-body{
+                height: 100%;
+               
+            }
+
+        }
+        .body-right{
+            height: calc(100vh - 64px);
+            // background-color: red;
+        }
+    }
+}
